@@ -1,7 +1,7 @@
 import { handleResult } from './handlers.js';
 import { colorsByLength, isDark } from './colors.js';
 
-const colorsEl = document.querySelector('.colors.js');
+const colorsEl = document.querySelector('.colors');
 
 function displayColors(colors) {
   return colors
